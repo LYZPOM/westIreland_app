@@ -1,6 +1,7 @@
 {
   "name": "westirelandFront",
   "version": "0.0.0",
+  "main": "app.js",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.3",
     "angular-stripe": "^5.0.0",
@@ -50,7 +51,11 @@
     "phantomjs": "~1.9.18",
     "uglify-save-license": "~0.4.1",
     "webpack-stream": "~2.1.1",
-    "wiredep": "~2.2.2"
+    "wiredep": "~2.2.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1"
   },
   "scripts": {
     "start": "node app.js"
