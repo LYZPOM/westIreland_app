@@ -51,7 +51,9 @@
     "uglify-save-license": "~0.4.1"
   },
   "scripts": {
-      "start": "npm start"
+      "build" : "gulp build",
+      "start": "gulp serve",
+      "postinstall" : "gulp default"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
