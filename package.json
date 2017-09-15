@@ -52,7 +52,8 @@
   },
   "scripts": {
       "build" : "gulp build",
-      "start": "gulp serve"
+      "start": "gulp serve",
+      "postinstall" : "bower install & gulp default"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
