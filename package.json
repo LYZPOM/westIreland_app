@@ -53,9 +53,8 @@
     "wiredep": "~2.2.2"
   },
   "scripts": {
-    "build": "gulp build",
     "start": "gulp serve",
-    "postinstall": "bower install & gulp default"
+    "postinstall": "gulp default"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
