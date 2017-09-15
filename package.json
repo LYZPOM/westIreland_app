@@ -53,8 +53,7 @@
     "wiredep": "~2.2.2"
   },
   "scripts": {
-    "start": "gulp serve",
-    "postinstall": "gulp default"
+    "start": "node app.js"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
