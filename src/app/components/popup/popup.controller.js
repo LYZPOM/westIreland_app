@@ -1,5 +1,5 @@
 export class PopupController {
-    constructor($scope, $uibModal, $log) {
+    constructor($scope, $uibModal) {
         'ngInject';
 
         $scope.user = {

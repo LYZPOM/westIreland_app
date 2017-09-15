@@ -7,8 +7,8 @@
     "angular-translate-loader-url": "^2.15.2"
   },
   "scripts": {
-      "start": "node app",
-      "postinstall": "gulp default"
+      "start": "gulp serve",
+      "build": "gulp build"
   },
   "devDependencies": {
     "estraverse": "~4.1.0",
